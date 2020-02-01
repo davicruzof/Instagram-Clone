@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "964273362608",
+    "firebase_url": "https://gitgram-f9f05.firebaseio.com",
+    "project_id": "gitgram-f9f05",
+    "storage_bucket": "gitgram-f9f05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964273362608:android:d5354d12a6f367568fcd75",
+        "android_client_info": {
+          "package_name": "insta.app.com.insta_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964273362608-li654h1i0ne0lnijedb9pi8jiev9negc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgq7lTQ52g2iZNdx4qT-bgY3BnxvY4Bzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964273362608-li654h1i0ne0lnijedb9pi8jiev9negc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "964273362608-jope2iuq87dam05so9ao0ka16sechm76.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "insta.app.com.instaClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
