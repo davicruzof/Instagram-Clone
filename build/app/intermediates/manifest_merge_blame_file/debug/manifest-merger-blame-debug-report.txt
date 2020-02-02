@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="insta.app.com.insta_clone"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:8:5-66
+14-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:firebase_analytics] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:firebase_analytics] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:firebase_analytics] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+16-->[:firebase_analytics] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+19
+20    <application
+20-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:9:5-30:19
+21        android:name="io.flutter.app.FlutterApplication"
+21-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:10:9-57
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/df6cf23cc51da578d8b158de17d0c9cb/core-1.0.0/AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:12:9-43
+25        android:label="insta_clone" >
+25-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:11:9-36
+26        <activity
+26-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:13:9-24:20
+27            android:name="insta.app.com.insta_clone.MainActivity"
+27-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:14:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:17:13-163
+29            android:hardwareAccelerated="true"
+29-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:18:13-47
+30            android:launchMode="singleTop"
+30-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:15:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:16:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:19:13-55
+33            <intent-filter>
+33-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:20:13-23:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:21:17-68
+34-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:21:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:22:17-76
+36-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:22:27-74
+37            </intent-filter>
+38        </activity>
+39        <!--
+40             Don't delete the meta-data below.
+41             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+42        -->
+43        <meta-data
+43-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:27:9-29:33
+44            android:name="flutterEmbedding"
+44-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:28:13-44
+45            android:value="2" />
+45-->/Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/android/app/src/main/AndroidManifest.xml:29:13-30
+46
+47        <service
+47-->[:firebase_analytics] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[:firebase_analytics] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:19.3.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/51e754f806f575120a65c7c4ae334bec/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+51            <meta-data
+51-->[:firebase_analytics] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+52                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+52-->[:firebase_analytics] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[:firebase_analytics] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+54            <meta-data
+54-->[:firebase_auth] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+55                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+55-->[:firebase_auth] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[:firebase_auth] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+57            <meta-data
+57-->[:cloud_firestore] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+58                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+58-->[:cloud_firestore] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[:cloud_firestore] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+60            <meta-data
+60-->[:firebase_core] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+61                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+61-->[:firebase_core] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[:firebase_core] /Users/daviondejesus/Desktop/ProjetosFlutter/insta_clone/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+64                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+64-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+66            <meta-data
+66-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/192166dd83cbbfd73ea18c910cc55de2/play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
+67                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+67-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/192166dd83cbbfd73ea18c910cc55de2/play-services-measurement-api-17.2.0/AndroidManifest.xml:31:17-139
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/192166dd83cbbfd73ea18c910cc55de2/play-services-measurement-api-17.2.0/AndroidManifest.xml:32:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-firestore:21.3.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/61e59d598fe140934cacbfb63a83b41b/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+70                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+70-->[com.google.firebase:firebase-firestore:21.3.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/61e59d598fe140934cacbfb63a83b41b/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-firestore:21.3.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/61e59d598fe140934cacbfb63a83b41b/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+73                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+73-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+75        </service>
+76
+77        <activity
+77-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+78            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+78-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+79            android:excludeFromRecents="true"
+79-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+80            android:exported="true"
+80-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+81            android:launchMode="singleTask"
+81-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+82            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+82-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.google.firebase:firebase-auth:19.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/ae936e42205d23ddab410b388bea9015/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+84
+85        <receiver
+85-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:29:9-33:20
+86            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+86-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:30:13-85
+87            android:enabled="true"
+87-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:31:13-35
+88            android:exported="false" >
+88-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:32:13-37
+89        </receiver>
+90        <receiver
+90-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:34:9-42:20
+91            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+91-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:35:13-100
+92            android:enabled="true"
+92-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:36:13-35
+93            android:exported="true"
+93-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:37:13-36
+94            android:permission="android.permission.INSTALL_PACKAGES" >
+94-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:38:13-69
+95            <intent-filter>
+95-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:39:13-41:29
+96                <action android:name="com.android.vending.INSTALL_REFERRER" />
+96-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:40:17-79
+96-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:40:25-76
+97            </intent-filter>
+98        </receiver>
+99
+100        <service
+100-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:44:9-47:40
+101            android:name="com.google.android.gms.measurement.AppMeasurementService"
+101-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:45:13-84
+102            android:enabled="true"
+102-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:46:13-35
+103            android:exported="false" />
+103-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:47:13-37
+104        <service
+104-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:48:9-52:72
+105            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+105-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:49:13-87
+106            android:enabled="true"
+106-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:50:13-35
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:51:13-37
+108            android:permission="android.permission.BIND_JOB_SERVICE" />
+108-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6570256977e83c7cf37235ba156a235b/play-services-measurement-17.2.0/AndroidManifest.xml:52:13-69
+109
+110        <receiver
+110-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+111            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+111-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+112            android:exported="true"
+112-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+113            android:permission="com.google.android.c2dm.permission.SEND" >
+113-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+114            <intent-filter>
+114-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+115                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+115-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+115-->[com.google.firebase:firebase-iid:19.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/d2db7998fe11f0473870f9ce401558c5/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+116            </intent-filter>
+117        </receiver>
+118
+119        <provider
+119-->[com.google.firebase:firebase-common:19.3.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/51e754f806f575120a65c7c4ae334bec/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+120            android:name="com.google.firebase.provider.FirebaseInitProvider"
+120-->[com.google.firebase:firebase-common:19.3.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/51e754f806f575120a65c7c4ae334bec/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+121            android:authorities="insta.app.com.insta_clone.firebaseinitprovider"
+121-->[com.google.firebase:firebase-common:19.3.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/51e754f806f575120a65c7c4ae334bec/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+122            android:exported="false"
+122-->[com.google.firebase:firebase-common:19.3.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/51e754f806f575120a65c7c4ae334bec/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+123            android:initOrder="100" />
+123-->[com.google.firebase:firebase-common:19.3.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/51e754f806f575120a65c7c4ae334bec/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+124
+125        <activity
+125-->[com.google.android.gms:play-services-base:17.1.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/8ac2c71cc9965485e4fc4eaca5d4253a/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+126            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+126-->[com.google.android.gms:play-services-base:17.1.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/8ac2c71cc9965485e4fc4eaca5d4253a/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-base:17.1.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/8ac2c71cc9965485e4fc4eaca5d4253a/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.google.android.gms:play-services-base:17.1.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/8ac2c71cc9965485e4fc4eaca5d4253a/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+129
+130        <meta-data
+130-->[com.google.android.gms:play-services-basement:17.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6b1b2feab0747522c67d336da98d304d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+131            android:name="com.google.android.gms.version"
+131-->[com.google.android.gms:play-services-basement:17.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6b1b2feab0747522c67d336da98d304d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+132            android:value="@integer/google_play_services_version" />
+132-->[com.google.android.gms:play-services-basement:17.0.0] /Users/daviondejesus/.gradle/caches/transforms-2/files-2.1/6b1b2feab0747522c67d336da98d304d/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+133    </application>
+134
+135</manifest>
